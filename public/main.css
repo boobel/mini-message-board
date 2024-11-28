@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+  min-height: 100vh;
+  height: 100%;
+}
+
+.btn {
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+}
