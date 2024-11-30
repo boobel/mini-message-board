@@ -10,14 +10,15 @@
   </head>
   <body>
     <header><%- include('includes/nav')%></header>
+    <section><%- include("includes/errors.ejs") %></section>
     <form method="POST" action="/add-message" class="form-container">
       <div class="form-control">
-        <label for="text">Message</label>
-        <input type="text" name="text" id="text" />
+        <label for="message">Message</label>
+        <input type="message" name="message" id="message" />
       </div>
       <div class="form-control">
-        <label for="user">User</label>
-        <input type="user" name="user" id="user" />
+        <label for="username">User</label>
+        <input type="username" name="username" id="username" />
       </div>
       <button type="submit" class="btn">Add Message</button>
     </form>

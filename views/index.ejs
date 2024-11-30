@@ -14,8 +14,8 @@
     <section class="messages">
       <% messages.forEach(message => { %>
       <article>
-        <h3><%= message.user %></h3>
-        <p><%= message.text %></p>
+        <h3><%= message.username %></h3>
+        <p><%= message.message %></p>
         <span><%= message.added %></span>
         <a href="/message/<%= message.id %>" class="btn">View Details</a>
       </article>
